@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Pocket Barbell Math",
-    "slug": "pocket-barbell-math",
+    "slug": "ufeqzq4vkl3fle6g5bst45w",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,13 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "app.rork.pocket-barbell-math"
+      "bundleIdentifier": "app.rork.pocket-barbell-math",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +31,8 @@
       "package": "app.rork.pocket_barbell_math"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
       [
@@ -39,6 +46,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ecc09dc3-c746-4358-8928-09a71a71a9c7"
+      }
     }
   }
 }

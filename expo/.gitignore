@@ -39,3 +39,7 @@ yarn-error.*
 .vercel
 
 .rork
+
+# iOS Signing Credentials
+credentials.json
+certs/*
